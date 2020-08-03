@@ -28,7 +28,7 @@ body {
 	opacity: 100%;
 	width: 50%;
 	height: auto;
-	border-radius: 5px;
+	border-radius: 7px;
 
 }
 
@@ -194,6 +194,12 @@ footer span div {
 	50% {color: #800000;}
 	100% {color: #E6E6FA;}
 }
+@keyframes colorful-text-1 {
+	0% {color: #FE113F;}
+	25% {color: #20AFFB;}
+	50% {color: #9120FB;}
+	100% {color: #31FB20;}
+}
 
 
 .changing-color {
@@ -202,11 +208,10 @@ footer span div {
 	animation-iteration-count: infinite;
 }
 .changing-color-1 {
-	animation-name: colorful-text;
+	animation-name: colorful-text-1;
 	animation-duration: 5s;
 	animation-direction: reverse;
 	animation-iteration-count: infinite;
-	animation-delay: 2s;
 }
 
 /*@keyframes move-text-animation {
